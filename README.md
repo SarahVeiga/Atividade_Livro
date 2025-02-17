@@ -2,7 +2,7 @@
 
 Utilizamos a linguagem html e css para realizarmos esta atividade de produção da página da atividade sobre o Livro!
 
-# PROTÓTIPOS
+## Protótipos
 
 - Versão Desktop
 
