@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Reset das configurações */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", serif;
+    list-style: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-image: url("img/navio_fundo.jpg"); */    
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)),url("img/navio_fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    background: #1E3869;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+h1{
+    font-family: "Dancing Script", serif;
+    font-size: 2.5rem;
+    text-align: inherit;
+}
+
+h2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:italic;
+    color: white;
+    font-size: 1.5rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: url(img/london.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.sidebar {
+    flex: 1;
+    min-width: 18rem;
+    background: #475B82;
+    padding: 15px;
+    border-radius: 8px;
+    align-items:center;
+    justify-content: space-around;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.main-content {
+    flex: 2;
+    min-width: 350px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.main-content1 {
+    flex: 2;
+    min-width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.subtittle{
+    color: #f1f1f1;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.secondary {
+    flex: 1;
+    min-width: 18rem;
+    background: #475B82;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+li{
+    padding: 9px;
+    text-align: center;
+}
+
+/* Benefits section */
+#key-benetis h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+    background-position: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;  /* Alinha os itens na vertical */
+    padding: 120px;
+    width: 80%;
+    margin-top: -90px;
+    margin-left: 20px;
+    /* margin: 0 auto; */
+    gap: 10px; 
+}
+
+
+.benefit {
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 2%;
+    color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size:cover;
+    /* background-position: center; */
+    margin-bottom: 1em;
+  
+}
+
+#benefit-1 {
+    background-image: url("img/Magnus_Chase.jpg");
+    
+}
+
+#benefit-2 {
+    background-image: url("img/Loki.jpg");
+}
+
+#benefit-3 {
+    background-image: url("img/Alex_Fierro.jpg");
+}
+
+#benefit-4 {
+    background-image: url("img/Sam.jpg");
+}
+
+#benefit-5 {
+    background-image: url("img/Hearthstone.png");
+}
+
+#benefit-6 {
+    background-image: url("img/Blitzen.png");
+} 
+
+.detail {
+    display:-webkit-inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 33%;
+}
+
+
+.detail h1 {
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: 500;
+    text-align:justify;
+    color: white;
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    text-align:inherit;
+    color: white;
+}
+
+
+footer {
+    background: #6B87BD;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+button {
+    background: #0077b6;
+    color: white;
+    cursor: pointer;
+    font-weight: 1rem;
+    font-size: 1.5rem;
+
+}
+button:hover {
+    background: #005f8a;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.meuquadradinho{
+    display: flex;
+    background-color: rgba(109, 159, 253, 0.164);
+    /* opacity: 0.4; */
+    padding: 55px;
+    border-radius: 17px;
+}
+
+.meuquadradinho2{
+    display:flexbox;
+    background-color: rgba(109, 159, 253, 0.164);
+    /* opacity: 0.4; */
+    padding: 10px;
+    border-radius: 17px;
+}
+
+/*  */
+
+.item{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: var(--background);
+}
+
+.item.ativo{
+    display: block;
+}
+
+.item .titulo{
+    font-size: 12rem;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    /* CENTRALIZAR */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item .fruta{
+    width: 90%;
+    position: relative;
+    top: 0;
+    z-index: 3;
+}
+
+.item .refri{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    z-index: 2;
+}
+
+#anterior, #proximo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #eee9;
+    border: 1px solid #eee9;
+    color: #eee;
+    font-size: x-large;
+    font-family: monospace;
+    cursor: pointer;
+    z-index: 4;
+    border-radius: 50%;
+}
+
+#anterior{
+    left: 30px;
+}
+
+#proximo{
+    right: 30px;
+}
+
+@keyframes mexer {
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+    .item.ativo img.fruta{
+        animation: mexer 0.5s ease-in-out 1;
+    }
+
+    .item.ativo .titulo{
+        animation: mexer 0.5s ease-in-out 1;
+    }
